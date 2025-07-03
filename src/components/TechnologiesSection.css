@@ -1,0 +1,119 @@
+.tech-section {
+  padding: 4rem 1rem;
+  background: transparent;
+}
+
+
+.tech-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.tech-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.tech-content {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.tech-heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.tech-heading .highlight {
+  color: #a78bfa;
+}
+
+.tech-heading .emoji {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.tech-box {
+  display: flex;
+  align-items: flex-start;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1.2rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  gap: 1rem;
+}
+
+.tech-box img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.tech-box h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
+  color: #ffffff;
+}
+
+.tech-box p {
+  font-size: 0.95rem;
+  color: #cbd5e1;
+  margin: 0;
+}
+
+
+.interactive-card {
+  background-color: #AA14F029 !important;
+  width: 400px;
+  transition: transform 0.2s;
+}
+
+.interactive-card:hover {
+  cursor: pointer;
+  animation: shake 0.3s ease-in-out;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  50% { transform: translateX(4px); }
+  75% { transform: translateX(-6px); }
+  100% { transform: translateX(0); }
+}
+
+.icon-img {
+  width: 70px;
+  margin-right: 20px;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+}
+
+.card-img-wrap {
+  flex: 0 0 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.card-text-wrap {
+  flex: 0 0 60%;
+}
+
+/* Optional - Staggered margins */
+.html-card { margin-left: 5px; }
+.css-card { margin-left: 70px; }
+.js-card { margin-left: 120px; }
+.bootstrap-card { margin-left: -40px; }
+.react-card { margin-left: -140px; }
+

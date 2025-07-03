@@ -1,0 +1,103 @@
+.what-i-do-section {
+  background-image: url('../assets/img/bg2.png');
+  height: 900px !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #8B5CF6, #EC4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-uppercase{
+  color: white !important;
+}
+.fw-semibold{
+  color: #E6E6E6 !important;
+}
+.section-inline-underline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px; 
+  margin: 8px 0 12px;
+}
+.text-end {
+  color: #E6E6E6;
+  font-size: 18px;
+  font-weight: 400;
+  width: max-content; /* ✅ fits content width */
+  margin: 0 auto;      /* ✅ centers horizontally */
+  text-align: center;
+  display: block;      /* ✅ ensures it behaves like block */
+}
+.text-mid{
+  font-size: 25px;
+  font-size: 400;
+}
+
+
+.line-20,
+.line-10 {
+  height: 2px;
+  background-color:#8B5CF6;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.line-20 {
+  width: 20px;
+}
+
+.line-10 {
+  width: 7px;
+}
+
+.card{
+background: linear-gradient(to bottom, #0E0E10, rgba(23, 23, 26, 0.23)) !important;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover{
+  cursor: pointer;
+  transform: scale(1.03); /* subtle zoom */
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.05); 
+}
+.text-para{
+  color: #E6E6E6;
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 300px;
+  margin: auto;
+}
+
+
+.text-uppercase.letter-spacing {
+  position: relative;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 0 20px; /* optional: spacing between text and lines */
+}
+
+.text-uppercase.letter-spacing::before,
+.text-uppercase.letter-spacing::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 70px;
+  height: 2px;
+  background-color: white;
+}
+
+.text-uppercase.letter-spacing::before {
+  left: 0;
+  transform: translateX(-100%);
+}
+
+.text-uppercase.letter-spacing::after {
+  right: 0;
+  transform: translateX(100%);
+}
