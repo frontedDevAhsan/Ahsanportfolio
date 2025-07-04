@@ -6,7 +6,8 @@ import coding from '../assets/img/coding.png'
 import top from '../assets/img/top.png'
 import react from '../assets/img/react.png'
 import bootstrap from '../assets/img/bootstrap.png'
-import Javascript from '../assets/img/Javascript.png'
+// import Javascript from '../assets/img/Javascript.png'
+import javascript from '../assets/img/javascript.png'
 
 
 const InteractiveInterfacesLanding = () => {
@@ -99,7 +100,7 @@ backgroundImage: `url(${secondsection})`,
             <div className="card interactive-card js-card mb-4">
               <div className="card-body d-flex align-items-center">
                 <div className="card-img-wrap">
-                  <img src={Javascript} alt="coding" className="img-fluid icon-img" />
+                  <img src={javascript} alt="coding" className="img-fluid icon-img" />
                 </div>
                 <div className="card-text-wrap">
                   <h5 className="card-title text-white">Javascript</h5>
