@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import last from '../assets/img/last.png';
 import contact from '../assets/img/contact.png';
 import call from '../assets/img/call.png';
 import top from '../assets/img/top.png';
