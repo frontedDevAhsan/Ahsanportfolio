@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maname&display=swap');
 
-  
 .portfolio-hero-section {
   min-height: 100vh;
   background-image: url('../assets/img/herobg.png');
@@ -8,6 +9,43 @@
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
+}
+
+.heading-h{
+  font-family: 'Orelega One', cursive;
+  font-size: 80px !important;
+  color: #E6E6E6 !important;
+}
+
+.heading2{
+    font-family: 'Orelega One', cursive;
+    font-size: 40px;
+    color: #E6E6E6 !important;
+}
+
+.text-para{
+    font-family: "Maname", serif;
+    font-size: 18px !important;
+}
+
+.textpara-1{
+    font-family: "Maname", serif;
+    font-size: 20px !important;
+    color: #E6E6E6 !important;
+}
+
+.btn-download{
+  background: linear-gradient(to right, #8B5CF6, #EC4899);
+  border: none !important;
+  display: inline-block !important;
+  padding: 15px 38px !important;
+  width: 200px;
+  border-radius: 10px;
+  height: 60px;
+  color: #E6E6E6 !important;
+  font-size: 20px;
+  font-family: "Maname", serif !important;
+  margin-top: 30px !important;
 }
 
 .right-bg-layer {
@@ -31,4 +69,113 @@
   0%   { transform: translateY(0); }
   50%  { transform: translateY(-6px); }
   100% { transform: translateY(0); }
+}
+
+/* Mobile Devices (Portrait) */
+@media (max-width: 480px) {
+  .heading-h{
+    font-size: 32px !important;
+  }
+  
+  .heading2{
+    font-size: 24px !important;
+  }
+  
+  .text-para{
+    font-size: 14px !important;
+  }
+  
+  .textpara-1{
+    font-size: 16px !important;
+  }
+  
+  .btn-download{
+    width: 160px;
+    height: 50px;
+    font-size: 14px !important;
+    padding: 12px 20px !important;
+  }
+  
+  .right-bg-layer {
+    width: 200px;
+    height: 100px;
+    filter: blur(40px);
+  }
+}
+
+/* Mobile Devices (Landscape) and Small Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  .heading-h{
+    font-size: 48px !important;
+  }
+  
+  .heading2{
+    font-size: 28px !important;
+  }
+  
+  .text-para{
+    font-size: 15px !important;
+  }
+  
+  .textpara-1{
+    font-size: 17px !important;
+  }
+  
+  .btn-download{
+    width: 180px;
+    height: 55px;
+    font-size: 17px;
+    padding: 13px 25px !important;
+  }
+  
+  .right-bg-layer {
+    width: 250px;
+    height: 130px;
+    filter: blur(50px);
+  }
+}
+
+/* Tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .heading-h{
+    font-size: 64px !important;
+  }
+  
+  .heading2{
+    font-size: 32px !important;
+  }
+  
+  .text-para{
+    font-size: 16px !important;
+  }
+  
+  .textpara-1{
+    font-size: 18px !important;
+  }
+  
+  .btn-download{
+    width: 190px;
+    height: 58px;
+    font-size: 18px;
+    padding: 14px 30px !important;
+  }
+}
+
+/* Large Tablets and Small Desktops */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .heading-h{
+    font-size: 72px !important;
+  }
+  
+  .heading2{
+    font-size: 36px !important;
+  }
+  
+  .text-para{
+    font-size: 17px !important;
+  }
+  
+  .textpara-1{
+    font-size: 19px !important;
+  }
 }

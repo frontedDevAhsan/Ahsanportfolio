@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maname&display=swap');
+
 .what-i-do-section {
   background-image: url('../assets/img/bg2.png');
-  height: 900px !important;
+  height: 900px ;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -12,12 +15,17 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.text-uppercase{
-  color: white !important;
+
+.head-1{
+    font-family: 'Orelega One', cursive;
+    font-size: 42px !important;
+    font-weight: 400 !important;
 }
+
 .fw-semibold{
   color: #E6E6E6 !important;
 }
+
 .section-inline-underline {
   display: flex;
   justify-content: center;
@@ -25,20 +33,23 @@
   gap: 4px; 
   margin: 8px 0 12px;
 }
+
 .text-end {
   color: #E6E6E6;
   font-size: 18px;
   font-weight: 400;
-  width: max-content; /* ✅ fits content width */
-  margin: 0 auto;      /* ✅ centers horizontally */
+  font-family: "Maname", serif !important;
+  width: max-content;
+  margin: 0 auto;      
   text-align: center;
-  display: block;      /* ✅ ensures it behaves like block */
+  display: block;      
 }
+
 .text-mid{
   font-size: 25px;
   font-size: 400;
+  font-family: "Maname", serif;
 }
-
 
 .line-20,
 .line-10 {
@@ -46,6 +57,7 @@
   background-color:#8B5CF6;
   border-radius: 5px;
   margin-bottom: 20px;
+  font-family: "Maname", serif;
 }
 
 .line-20 {
@@ -59,27 +71,33 @@
 .card{
 background: linear-gradient(to bottom, #0E0E10, rgba(23, 23, 26, 0.23)) !important;
 transition: transform 0.3s ease, box-shadow 0.3s ease;
+font-family: "Maname", serif;
 }
+
 .card:hover{
   cursor: pointer;
   transform: scale(1.03); /* subtle zoom */
   box-shadow: 0 8px 20px rgba(255, 255, 255, 0.05); 
 }
+
 .text-para{
   color: #E6E6E6;
-  font-size: 15px;
+  font-size: 15px !important;
   font-weight: 400;
   max-width: 300px;
   margin: auto;
+  font-family: "Maname", serif;
 }
-
 
 .text-uppercase.letter-spacing {
   position: relative;
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 0 20px; /* optional: spacing between text and lines */
+  padding: 0 20px; 
+  font-family: 'Orelega One', cursive;
+  font-size: 14px !important;
+  font-weight: 400 !important;
 }
 
 .text-uppercase.letter-spacing::before,
@@ -100,4 +118,128 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
 .text-uppercase.letter-spacing::after {
   right: 0;
   transform: translateX(100%);
+}
+
+/* Mobile Devices (Portrait) */
+@media (max-width: 480px) {
+  .what-i-do-section {
+    height: 1800px !important;
+  }
+  
+  .head-1{
+    font-size: 28px !important;
+  }
+  
+  .text-end {
+    font-size: 14px;
+  }
+  
+  .text-mid{
+    font-size: 18px;
+  }
+  
+  .text-para{
+    font-size: 13px !important;
+    max-width: 280px;
+  }
+  
+  .text-uppercase.letter-spacing {
+    font-size: 12px !important;
+    padding: 0 15px;
+  }
+  
+  .text-uppercase.letter-spacing::before,
+  .text-uppercase.letter-spacing::after {
+    width: 40px;
+  }
+  
+  .card{
+    margin-bottom: 15px;
+  }
+}
+
+/* Mobile Devices (Landscape) and Small Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  .what-i-do-section {
+    height: 700px !important;
+  }
+  
+  .head-1{
+    font-size: 32px !important;
+  }
+  
+  .text-end {
+    font-size: 15px;
+  }
+  
+  .text-mid{
+    font-size: 20px;
+  }
+  
+  .text-para{
+    font-size: 14px !important;
+    max-width: 290px;
+  }
+  
+  .text-uppercase.letter-spacing {
+    font-size: 13px !important;
+    padding: 0 18px;
+  }
+  
+  .text-uppercase.letter-spacing::before,
+  .text-uppercase.letter-spacing::after {
+    width: 50px;
+  }
+}
+
+/* Tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .what-i-do-section {
+    height: 750px !important;
+  }
+  
+  .head-1{
+    font-size: 36px !important;
+  }
+  
+  .text-end {
+    font-size: 16px;
+  }
+  
+  .text-mid{
+    font-size: 22px;
+  }
+  
+  .text-para{
+    font-size: 14px !important;
+    max-width: 295px;
+  }
+  
+  .text-uppercase.letter-spacing {
+    font-size: 13px !important;
+  }
+  
+  .text-uppercase.letter-spacing::before,
+  .text-uppercase.letter-spacing::after {
+    width: 60px;
+  }
+}
+
+/* Large Tablets and Small Desktops */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .what-i-do-section {
+    height: 800px !important;
+  }
+  
+  .head-1{
+    font-size: 38px !important;
+  }
+  
+  .text-end {
+    font-size: 17px;
+  }
+  
+  .text-mid{
+    font-size: 23px;
+  }
 }

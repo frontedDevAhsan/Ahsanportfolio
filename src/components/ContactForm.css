@@ -1,0 +1,84 @@
+ @import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+
+.cf-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.cf-bg {
+  background-image: url('../assets/img/last.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -2;
+}
+
+.cf-img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.cf-wave-img {
+  margin-left: -380px;
+}
+
+.cf-title {
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+  position: relative;
+  margin-bottom: 3rem;
+  text-align: left;
+   font-family: 'Orelega One', cursive;
+
+}
+
+.cf-call-img {
+  position: absolute;
+  left: -30px;
+  top: -60px;
+  z-index: 1;
+  width: 330px;
+}
+
+.cf-title span {
+  position: relative;
+  z-index: 2;
+}
+
+.cf-form-wrapper {
+  max-width: 450px;
+}
+
+.cf-input {
+  background-color: #f8f9fa !important;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 20px;
+  font-size: 14px !important;
+  resize: vertical;
+  font-family: 'Orelega One', cursive;
+  font-weight: 300 !important;
+
+}
+
+.cf-submit-btn {
+  width: 200px;
+  height: 50px;
+  background: linear-gradient(to right, #AA14F0, #6D18EF);
+  border: none;
+  border-radius: 8px;
+  padding: 15px 20px;
+  font-size: 18px !important;
+  transition: all 0.3s ease;
+  text-align: left;
+  font-family: 'Orelega One', cursive !important;
+  font-weight: 300 !important;
+  color: white !important;
+}
+
+.cf-submit-btn:hover {
+  background-color: #7B68EE;
+  transform: translateY(-2px);
+}

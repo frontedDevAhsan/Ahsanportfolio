@@ -38,15 +38,18 @@ backgroundImage: `url(${secondsection})`,
               WebkitTextStroke: '1px #FFFFFF26',
               zIndex: 1,
               userSelect: 'none'
+              
             }}
           >
+            <div className='bg-text'>
             LANGUAGES
+            </div>
           </div>
           
           {/* Main Content */}
           <div className="position-relative" style={{zIndex: 2}}>
             <small className="text-info"><img src={top} alt="top" width={100}/></small>
-            <h1 className="display-3 fw-bold mb-4 fs-2">
+            <h1 className="display-3 second-head mb-4 ">
               🚀 Turning Ideas Into Interactive Interfaces
             </h1>
           </div>
@@ -74,7 +77,7 @@ backgroundImage: `url(${secondsection})`,
                 </div>
                 <div className="card-text-wrap">
                   <h5 className="card-title text-white">HTML</h5>
-                  <p className="card-text text-light small">Building the foundation of web pages with clean, semantic and accessible structure.</p>
+                  <p className="card-text ">Building the foundation of web pages with clean, semantic and accessible structure.</p>
                 </div>
               </div>
             </div>
@@ -87,7 +90,7 @@ backgroundImage: `url(${secondsection})`,
                 </div>
                 <div className="card-text-wrap">
                   <h5 className="card-title text-white">CSS</h5>
-                  <p className="card-text text-light small">Styling modern interfaces using responsive design, flex CSS Grid techniques.</p>
+                  <p className="card-text">Styling modern interfaces using responsive design, flex CSS Grid techniques.</p>
                 </div>
               </div>
             </div>
@@ -100,7 +103,7 @@ backgroundImage: `url(${secondsection})`,
                 </div>
                 <div className="card-text-wrap">
                   <h5 className="card-title text-white">Javascript</h5>
-                  <p className="card-text text-light small">Adding interactivity and logic to web applications with modern Javascript.</p>
+                  <p className="card-text ">Adding interactivity and logic to web applications with modern Javascript.</p>
                 </div>
               </div>
             </div>
@@ -113,7 +116,7 @@ backgroundImage: `url(${secondsection})`,
                 </div>
                 <div className="card-text-wrap">
                   <h5 className="card-title text-white">Bootstrap</h5>
-                  <p className="card-text text-light small">Rapid prototyping and fast UI layouts using Bootstrap's flexible components.</p>
+                  <p className="card-text ">Rapid prototyping and fast UI layouts using Bootstrap's flexible components.</p>
                 </div>
               </div>
             </div>
@@ -126,7 +129,7 @@ backgroundImage: `url(${secondsection})`,
                 </div>
                 <div className="card-text-wrap">
                   <h5 className="card-title text-white">React</h5>
-                  <p className="card-text text-light small">Building fast, reusable, and dynamic user interfaces with component architecture.</p>
+                  <p className="card-text ">Building fast, reusable, and dynamic user interfaces with component architecture.</p>
                 </div>
               </div>
             </div>

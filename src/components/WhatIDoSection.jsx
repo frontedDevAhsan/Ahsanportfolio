@@ -1,5 +1,8 @@
 import React from 'react';
 import './WhatIDoSection.css';
+import frontend from '../assets/img/frontend.png'
+import responsive from '../assets/img/responsive.png'
+import func from "../assets/img/func.png"
 
 export default function WhatIDoSection() {
   return (
@@ -9,15 +12,15 @@ export default function WhatIDoSection() {
 >
       <div className="container text-center">
         {/* Heading */}
-        <p className="text-uppercase small letter-spacing  mb-5">Speciality</p>
-        <h2 className="display-5 fw-bold mb-5">What I DO</h2>
+        <p className="text-uppercase small letter-spacing mb-5">Speciality</p>
+        <h2 className="display-5 head-1 mb-5">What I DO</h2>
 
         {/* Cards */}
         <div className="row mb-5">
           <div className="col-md-4 mb-4">
             <div className="card h-100 shadow-sm border-0 p-4">
               <div className="mb-3">
-                <img src="https://img.icons8.com/ios-filled/50/code-file.png" alt="Frontend" width="32" />
+                <img src={frontend} alt="Frontend" width="70" />
               </div>
               <h5 className="fw-semibold">Complete Frontend</h5>
               <div className="section-inline-underline">
@@ -33,7 +36,7 @@ export default function WhatIDoSection() {
           <div className="col-md-4 mb-4">
             <div className="card  h-100 shadow-sm border-0 p-4">
               <div className="mb-3">
-                <img src="https://img.icons8.com/ios-filled/50/responsive.png" alt="Responsive" width="32" />
+                <img src={responsive} alt="Responsive" width="70" />
               </div>
                  <h5 className="fw-semibold ">Responsive</h5>
                  <div className="section-inline-underline">
@@ -49,7 +52,7 @@ export default function WhatIDoSection() {
           <div className="col-md-4 mb-4">
             <div className="card  h-100 shadow-sm border-0 p-4">
               <div className="mb-3">
-                <img src="https://img.icons8.com/ios-filled/50/settings.png" alt="Functional" width="32" />
+                <img src={func} alt="Functional" width="70" />
               </div>
                  <h5 className="fw-semibold">Functional</h5>
                  <div className="section-inline-underline">
