@@ -47,7 +47,7 @@
   font-family: "Maname", serif !important;
   margin-top: 30px !important;
 }
-
+/* 
 .right-bg-layer {
   position: absolute;
   bottom: 0;
@@ -63,7 +63,7 @@
 
 .bounce-animation {
   animation: bounce 0.5s;
-}
+} */
 
 @keyframes bounce {
   0%   { transform: translateY(0); }

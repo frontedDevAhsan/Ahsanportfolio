@@ -62,7 +62,7 @@ backgroundImage: `url(${secondsection})`,
             <img 
               src={left}
               alt="Interactive Interface" 
-              className="img-fluid rounded-3"
+              className="img-fluid rounded-3 img-lef"
               style={{ maxWidth: '400px', transform: 'translateX(50px)' }}
             />
           </div>

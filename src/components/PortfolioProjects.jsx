@@ -4,6 +4,10 @@ import sectionthree from '../assets/img/sectionthree.png';
 import Projects from '../assets/img/Projects.png';
 import top from '../assets/img/top.png';
 import './PortfolioProjects.css';
+import find from '../assets/img/find.jpg'
+import reown from '../assets/img/reown.png'
+import repair from '../assets/img/repair.jpg'
+import sam from '../assets/img/sam.png'
 
 const PortfolioProjects = () => {
   const [currentView, setCurrentView] = useState('main');
@@ -13,7 +17,7 @@ const PortfolioProjects = () => {
   {
       id: 'crustim',
       name: 'Crustim',
-      image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&h=300&fit=crop',
+      image: '',
       description: 'Crustim is a modern workflow automation and consulting company that helps businesses automate, optimize, and scale their operations.Their solutions focus on simplifying complex processes using tools like monday.com, Make.com, and custom API integrations.',
       website: 'https://crustim.co/',
       technologies: ['HTML', 'JAVASCRIPT', 'BOOTSTRAP', 'CSS','JSX'],
@@ -28,7 +32,7 @@ const PortfolioProjects = () => {
     {
       id: 'sam',
       name: 'SAM',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop',
+      image:`${sam}` ,
       description: 'Smart Analytics Manager - A comprehensive data visualization and analytics platform. Built to handle large datasets with interactive charts, custom dashboards, and automated reporting features. Perfect for businesses looking to make data-driven decisions.',
       website: 'https://sameventsa.com/',
       technologies: ['HTML', 'JAVASCRIPT', 'BOOTSTRAP', 'CSS'],
@@ -42,7 +46,7 @@ const PortfolioProjects = () => {
     {
       id: 'reown',
       name: 'Reown',
-      image: 'https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=400&h=300&fit=crop',
+      image:`${reown}`,
       description: 'A revolutionary property management and real estate platform. Connects property owners with tenants through an intuitive interface. Features include virtual tours, automated lease management, and integrated payment processing.',
       website: 'https://reownlogics.com/',
       technologies: ['HTML', 'JAVASCRIPT', 'BOOTSTRAP', 'CSS'],
@@ -56,7 +60,7 @@ const PortfolioProjects = () => {
     {
       id: 'findaproperty',
       name: 'Finda-property',
-      image: 'https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=400&h=300&fit=crop',
+      image: `${find}`,
       description: 'A revolutionary property management and real estate platform. Connects property owners with tenants through an intuitive interface. Features include virtual tours, automated lease management, and integrated payment processing.',
       website: 'https://finda-property.com/',
       technologies: ['HTML', 'JAVASCRIPT', 'BOOTSTRAP', 'CSS','JQUERY'],
@@ -70,7 +74,7 @@ const PortfolioProjects = () => {
     {
       id: '360rcp',
       name: '360rcp',
-      image: 'https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=400&h=300&fit=crop',
+      image: `${repair}`,
       description: 'A revolutionary property management and real estate platform. Connects property owners with tenants through an intuitive interface. Features include virtual tours, automated lease management, and integrated payment processing.',
       website: 'https://360rcp.com/',
       technologies: ['HTML', 'JAVASCRIPT', 'BOOTSTRAP', 'CSS','JQUERY'],
@@ -84,9 +88,9 @@ const PortfolioProjects = () => {
     {
       id: 'portfolio',
       name: 'Portfolio',
-      image: 'https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?w=400&h=300&fit=crop',
+      image: '',
       description: 'A modern personal portfolio website showcasing web development projects and skills. Built with React and featuring smooth animations, responsive design, and interactive elements.',
-      website: 'https://myportfolio.com/',
+      website: 'https://ahsanportfoli.netlify.app/',
       technologies: ['REACT', 'JAVASCRIPT', 'CSS', 'HTML'],
       highlights: [
         'Modern responsive design',
